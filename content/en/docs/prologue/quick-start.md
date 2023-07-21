@@ -15,65 +15,28 @@ toc: true
 
 ## Requirements
 
-- [Git](https://git-scm.com/) — latest source release
-- [Node.js](https://nodejs.org/) — latest LTS version or newer
+- [Python3](https://www.python.org/downloads/) — 3.7 or newer
+- pip3 — Python package manager, usually included in install.
 
-{{< details "Why Node.js?" >}}
-Doks uses npm (included with Node.js) to centralize dependency management, making it [easy to update]({{< relref "how-to-update" >}}) resources, build tooling, plugins, and build scripts.
-{{< /details >}}
+## Start interacting with the ClarityGov API
 
-## Start a new Doks project
-
-Create a new site, change directories, install dependencies, and start development server.
-
-### Create a new site
-
-Doks is available as a child theme and a starter theme.
-
-#### Child theme
-
-- Intended for novice to intermediate users
-- Intended for minor customizations
-- [Easily update npm packages]({{< relref "how-to-update" >}}) — __including__ [Doks](https://www.npmjs.com/package/@hyas/doks)
+### Install the ClarityGov Python client via PIP
 
 ```bash
-git clone https://github.com/h-enk/doks-child-theme.git my-doks-site
+pip3 install claritygov
 ```
 
-#### Starter theme
+### Create a new ClarityGov client and return all Maryland House Members
 
-- Intended for intermediate to advanced users
-- Intended for major customizations
-- [Easily update npm packages]({{< relref "how-to-update" >}})
 
-```bash
-git clone https://github.com/h-enk/doks.git my-doks-site
+```python
+from claritygov.api.state import State
+from claritygov.api_client import ClarityAPIClient
+from claritygov.api.house import House
+
+api_client = ClarityAPIClient()
+state = State(api_client, 'Maryland')
+house = House(state)
+members = house.get_house_members()
+print(members)
 ```
-
-{{< details "Help me choose" >}}
-Not sure which one is for you? Pick the child theme.
-{{< /details >}}
-
-### Change directories
-
-```bash
-cd my-doks-site
-```
-
-### Install dependencies
-
-```bash
-npm install
-```
-
-### Start development server
-
-```bash
-npm run start
-```
-
-Doks will start the Hugo development webserver accessible by default at `http://localhost:1313`. Saved changes will live reload in the browser.
-
-## Other commands
-
-Doks comes with commands for common tasks. [Commands →]({{< relref "commands" >}})
