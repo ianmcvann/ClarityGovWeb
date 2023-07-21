@@ -1,7 +1,7 @@
 ---
 title: "Introduction"
-description: "Doks is a Hugo theme for building secure, fast, and SEO-ready documentation websites, which you can easily update and customize."
-lead: "Doks is a Hugo theme for building secure, fast, and SEO-ready documentation websites, which you can easily update and customize."
+description: "ClarityGov is a free API intending to provide legislative data in a standardized format for all levels of government."
+lead: "ClarityGov is a free API intending to provide legislative data in a standardized format for all levels of government."
 date: 2020-10-06T08:48:57+00:00
 lastmod: 2020-10-06T08:48:57+00:00
 draft: false
@@ -15,7 +15,7 @@ toc: true
 
 ## Get started
 
-There are two main ways to get started with Doks:
+Getting started with ClarityGov is relatively easy. The guide below will get you up and running in no time.
 
 ### Tutorial
 
