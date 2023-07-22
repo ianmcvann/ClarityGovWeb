@@ -1,4 +1,4 @@
-baseurl = "ianmcvann.github.io/ClarityGov"
+baseurl = "claritygov.com"
 canonifyURLs = false
 disableAliases = true
 disableHugoGeneratorInject = true

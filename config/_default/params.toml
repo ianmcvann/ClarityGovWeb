@@ -12,7 +12,7 @@ description = "ClarityGov is a free API intending to provide legislative data in
 ## Open Graph
 images = ["doks.png"]
 ogLocale = "en_US"
-domainTLD = "ianmcvann.github.io/ClarityGov"
+domainTLD = "claritygov.com"
 titleHome = "ClarityGov"
 
 ## Twitter Cards
