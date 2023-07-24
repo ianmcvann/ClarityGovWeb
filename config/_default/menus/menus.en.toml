@@ -15,6 +15,11 @@
   weight = 50
   identifier = "report-incorrect-data"
   url = "/report"
+[[main]]
+  name = "Roadmap"
+  weight = 60
+  identifier = "roadmap"
+  url = "/roadmap"
 
 [[social]]
   name = "GitHub"
