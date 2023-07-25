@@ -11,6 +11,13 @@
   url = "/docs/prologue/quick-start/"
   parent = "get-started"
 [[main]]
+  name = "API Reference"
+  weight = 50
+  identifier = "api-reference"
+  url = "https://api.claritygov.com/docs"
+  parent = "get-started"
+
+[[main]]
   name = "Report Incorrect Data"
   weight = 50
   identifier = "report-incorrect-data"
