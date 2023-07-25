@@ -13,6 +13,10 @@ weight: 110
 toc: true
 ---
 
+{{< alert icon="👉" context="warning">}}
+These docs are likely not working due to server changes. Please use the API docs directly at [https://api.claritygov.com/docs](https://api.claritygov.com/docs).
+{{< /alert >}}
+
 ## Requirements
 
 - [Python3](https://www.python.org/downloads/) — 3.7 or newer
