@@ -12,7 +12,7 @@ images: []
 
 Hello and welcome to the ClarityGov API roadmap. This page is a living document that outlines the current and future development of the ClarityGov API. If you have any questions or suggestions, please contact us using the report form [here](/report).
 
-My name is [Ian McVann](https://github.com/ianmcvann) and I am the developer of the ClarityGov API. I am current college student majoring in International Affairs and Computer Science at the [George Washington University](https://gwu.edu). This project is a passion project of mine that I work on in my spare time, as I believe that government data should be free and accessible to all.
+My name is [Ian McVann](https://github.com/ianmcvann) and I am the developer of the ClarityGov API. I am a current college student majoring in International Affairs and Computer Science at the [George Washington University](https://gwu.edu). This project is a passion project of mine that I work on in my spare time, as I believe that government data should be free and accessible to all.
 
 ClarityGov API is a free, public developer API for accessing government legislative data in a standardized format. The API is currently in beta and is being actively developed, and is subject to change. 
 
