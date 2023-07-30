@@ -12,10 +12,6 @@ weight: 110
 toc: true
 ---
 
-{{< alert icon="👉" context="warning">}}
-These docs are likely not working due to server changes. Please use the API docs directly at [https://api.claritygov.com/docs](https://api.claritygov.com/docs).
-{{< /alert >}}
-
 ## Requirements
 
 - [Python3](https://www.python.org/downloads/) — 3.7 or newer
@@ -33,13 +29,10 @@ pip3 install claritygov
 
 
 ```python
-from claritygov.api.state import State
-from claritygov.api_client import ClarityAPIClient
-from claritygov.api.house import House
+from claritygov.services.legislators_service import get_state_house_members
 
-api_client = ClarityAPIClient()
-state = State(api_client, 'Maryland')
-house = House(state)
-members = house.get_house_members()
+# Returns a list of Delegate models. See claritygov.models.Delegate for more information on the model.
+members = get_state_house_members('md')
+# Print out the list of Delegates.
 print(members)
 ```
