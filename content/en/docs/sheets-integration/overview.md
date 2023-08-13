@@ -26,13 +26,13 @@ ClarityGov Sheets is currently in closed beta. Please contact the developer to g
 
 Upon opening a spreadsheet, you will see a new menu item called "ClarityGov Sheets". Clicking on this menu will open a sidebar that will allow you to connect to ClarityGov and pull data into your spreadsheet.
 
-![Image](/assets/images/clarity-gov-menu.png "ClarityGov Sheets Menu")
+![Test image](images/clarity-gov-menu.png "ClarityGov Sheets Menu")
 
 ## Configuring the Add-on
 
 The first time you open the add-on, you should ensure that the settings are configured correctly. Click on the "Settings" tab in the sidebar to open the settings. An example configuration is shown below.
 
-![Image](/assets/images/clarity-gov-settings.png "ClarityGov Sheets Settings")
+![Image](images/clarity-gov-settings.png "ClarityGov Sheets Settings")
 
 Once you are done, click "Save". You will not need to configure the settings again unless you want to change states or sessions. 
 
