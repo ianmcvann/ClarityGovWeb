@@ -45,5 +45,15 @@ Backend Changes -> Server Changes -> Swagger Doc Changes -> Python Package Chang
 
 Notably, this means that there may be points where the API or Python package is not fully functional. I will try to minimize this as much as possible, but it is inevitable. It also means that there may be endpoints that are not documented, not included yet in the Python package (but are in [REST](https://api.claritygov.com/docs)), or that the documentation is not up to date. If you find any issues, please [report them](/report) along with any incorrect API data. I will try to fix any issues as soon as possible.
 
+### August 2023
 
+Great progress has been made in the past month. 
+* Votes and Committees have been added to the API backend for Maryland.
+* Google Sheets integration is almost complete and ready for user testing. It is currently in closed beta, but will be released soon.
+* The Python package has been updated to include the new data. The documentation has also been updated to include the new data.
 
+Immediate next steps are:
+* Get Google Sheets integration out to first users.
+* Add a monitoring script to the backend to ensure that the data is up to date, tracking new bills as they are created/voted on.
+
+The second part in particular I believe should be prioritized before new state additions. Once that's done, I will be able to add new states much more quickly. The next state will be Minnesota. 
