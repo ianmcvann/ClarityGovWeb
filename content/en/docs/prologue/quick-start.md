@@ -25,7 +25,7 @@ Welcome to ClarityGov API! If you're new to the API and haven't read the introdu
 
 ### Install the ClarityGov Python client via PIP
 
-```bash
+```sh
 pip3 install claritygov
 ```
 

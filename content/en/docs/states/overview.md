@@ -18,4 +18,5 @@ The following section is a complete documentation of all supported states and th
 
 | State    | Status      | Page                    |
 |----------|-------------|-------------------------|
-| Maryland | In Progress | [Maryland](../maryland) |
+| Maryland | Done | [Maryland](../maryland) |
+| Minnesota | In Progress | [Minnesota](../minnesota) |
