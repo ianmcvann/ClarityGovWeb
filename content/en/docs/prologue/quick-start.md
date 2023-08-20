@@ -12,7 +12,11 @@ weight: 110
 toc: true
 ---
 
-## Requirements
+## Welcome
+
+Welcome to ClarityGov API! If you're new to the API and haven't read the introduction, you can do so [here](https://claritygov.com/docs/prologue/introduction/). The following document details how to install the Python API wrapper and get started.
+##### Note: Due to the rapid development process of the ClarityGov Beta, it is advised currently to use the API directly, as the wrapper may be out of date. You can find the API docs [here](https://api.claritygov.com/docs).
+## Python Requirements
 
 - [Python3](https://www.python.org/downloads/) — 3.7 or newer
 - pip3 — Python package manager, usually included in install.
