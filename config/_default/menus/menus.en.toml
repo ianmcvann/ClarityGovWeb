@@ -5,6 +5,12 @@
   url = "/docs/prologue/introduction/"
 
 [[main]]
+  name= "Introduction"
+  weight = 10
+  identifier = "introduction"
+  url = "/docs/prologue/introduction/"
+  parent = "get-started"
+[[main]]
   name = "Quick Start"
   weight = 40
   identifier = "quick-start"
