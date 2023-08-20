@@ -17,6 +17,7 @@ The following section describes the data accessible for Minnesota via the Clarit
 ## House
 ### Get Delegates 
 Endpoint: `/mn/house/members`
+
 Description: Returns a list of all delegates in the Maryland House of Delegates.
 
 ```python
@@ -30,4 +31,5 @@ print(members)
 
 ### Get Senators
 Endpoint: `/mn/senate/senators`
+
 Description:  Returns a list of senators.
